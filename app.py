@@ -32,7 +32,7 @@ def model_prediction():
     return target[result[0]]
 
 if __name__=="__main__":
-    app.run(debug=True)
+    app.run(debug=False,port=8080,host='0.0.0.0')
 
 
 
